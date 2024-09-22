@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Commodities</title>
+    <link rel="stylesheet" href="multiple_style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #e6f7ff, #ffffff);
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: #007bff;
+            animation: fadeIn 1s;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            animation: slideIn 1s;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            background: #f8f9fa;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 5px;
+            transition: transform 0.2s;
+        }
+
+        li:hover {
+            transform: scale(1.05);
+            background: #e2e6ea;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            margin-top: 20px;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideIn {
+            from { transform: translateY(-20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Multiple Commodities</h1>
+    <button id="darkModeToggle" onclick="toggleDarkMode()">🌙</button>
+</header>
+
+<section>
+    <h2>Information on Various Commodities</h2>
+    <p>Below are brief descriptions of the commodities we cover:</p>
+
+    <ul>
+        <li><strong>Gram Dal:</strong> A staple pulse, high in protein and used in various dishes.</li>
+        <li><strong>Sugar:</strong> A sweetener derived from sugarcane or sugar beet, used in cooking and baking.</li>
+        <li><strong>Rice:</strong> A primary staple food for over half of the world's population, consumed in various forms.</li>
+        <li><strong>Wheat:</strong> A cereal grain used to make flour for bread, pasta, and many other foods.</li>
+        <li><strong>Atta:</strong> Whole wheat flour, commonly used in Indian cooking for making flatbreads.</li>
+        <li><strong>Tur/Arhar Dal:</strong> Yellow split pigeon peas, commonly used in soups and curries.</li>
+        <li><strong>Urad Dal:</strong> Black gram lentils, rich in protein and often used in South Indian dishes.</li>
+        <li><strong>Moong Dal:</strong> Green gram lentils, known for their high protein content and easy digestibility.</li>
+        <li><strong>Masoor Dal:</strong> Red lentils, quick to cook and often used in soups and stews.</li>
+        <li><strong>Gur:</strong> Jaggery, a traditional unrefined sugar made from sugarcane or palm sap.</li>
+        <li><strong>Groundnut Oil:</strong> Oil extracted from peanuts, used for frying and cooking.</li>
+        <li><strong>Mustard Oil:</strong> An oil made from mustard seeds, popular in Indian cuisine.</li>
+        <li><strong>Vanaspati:</strong> A hydrogenated fat used in cooking and baking.</li>
+        <li><strong>Sunflower Oil:</strong> A healthy oil extracted from sunflower seeds, commonly used in frying and salads.</li>
+        <li><strong>Soya Oil:</strong> Extracted from soybeans, widely used in food production.</li>
+        <li><strong>Palm Oil:</strong> A versatile oil used in cooking, food production, and non-food items.</li>
+        <li><strong>Tea:</strong> A popular beverage derived from the leaves of the Camellia sinensis plant.</li>
+        <li><strong>Milk:</strong> A nutritious liquid produced by mammals, consumed as a beverage and used in cooking.</li>
+        <li><strong>Salt:</strong> A mineral essential for human health and food preservation.</li>
+        <li><strong>Potato:</strong> A starchy tuber, versatile in cooking and a staple food in many diets.</li>
+        <li><strong>Onion:</strong> A common vegetable used for flavoring in a variety of dishes.</li>
+        <li><strong>Tomato:</strong> A juicy fruit commonly used in salads, sauces, and cooking.</li>
+    </ul>
+
+    <button type="button" class="btn" onclick="window.location.href='index.html'">Back to Home</button>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
